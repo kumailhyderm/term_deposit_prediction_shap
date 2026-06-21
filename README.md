@@ -42,24 +42,33 @@ Predict whether a bank customer will subscribe to a term deposit as a result of 
 
 ## Visualizations
 
+### Target Distribution
+![Target Distribution](target_dist.png)
+
+### Numeric Feature Distributions
+![Numeric Distributions](numeric_dist.png)
+
+### Subscription Rate by Job
+![Job Rate](job_rate.png)
+
 ### Confusion Matrices
-![Confusion Matrices](plots/confusion_matrices.png)
+![Confusion Matrices](confusion_matrices.png)
 
 ### ROC Curve
-![ROC Curve](plots/roc_curve.png)
+![ROC Curve](roc_curve.png)
 
 ### SHAP Global Feature Importance
-![SHAP Summary](plots/shap_summary_bar.png)
+![SHAP Summary](shap_summary.png)
 
 ### SHAP Beeswarm Plot
-![SHAP Beeswarm](plots/shap_beeswarm.png)
+![SHAP Beeswarm](shap_beesawrm.png)
 
 ### SHAP Individual Predictions (Waterfall)
-![Waterfall 1](plots/shap_waterfall_1.png)
-![Waterfall 2](plots/shap_waterfall_2.png)
-![Waterfall 3](plots/shap_waterfall_3.png)
-![Waterfall 4](plots/shap_waterfall_4.png)
-![Waterfall 5](plots/shap_waterfall_5.png)
+![Waterfall 1](shap_waterfall_1.png)
+![Waterfall 2](shap_waterfall_2.png)
+![Waterfall 3](shap_waterfall_3.png)
+![Waterfall 4](shap_waterfall_4.png)
+![Waterfall 5](shap_waterfall_5.png)
 
 
 ## Results
@@ -96,23 +105,12 @@ Open `notebook.ipynb` and run all cells sequentially.
 bank-marketing-classification/
 
 ├── notebook.ipynb
-
 ├── README.md
-
 ├── requirements.txt
-
 └── plots/
-
 ├── confusion_matrices.png
-
 ├── roc_curve.png
-
 ├── shap_summary_bar.png
-
 ├── shap_beeswarm.png
-
 └── shap_waterfall_1.png ... shap_waterfall_5.png
 
----
-
-## Repository Structure
