@@ -102,15 +102,21 @@ pip install pandas numpy scikit-learn shap matplotlib seaborn ucimlrepo
 Open `notebook.ipynb` and run all cells sequentially.
 
 ## Repository Structure
-bank-marketing-classification/
-
-├── notebook.ipynb
+```
+bank_marketing/
 ├── README.md
-├── requirements.txt
-└── plots/
+├── bank_marketing.ipynb
+├── bank-additional-full.csv
 ├── confusion_matrices.png
 ├── roc_curve.png
-├── shap_summary_bar.png
-├── shap_beeswarm.png
-└── shap_waterfall_1.png ... shap_waterfall_5.png
-
+├── shap_summary.png
+├── shap_beesawrm.png
+├── shap_waterfall_1.png
+├── shap_waterfall_2.png
+├── shap_waterfall_3.png
+├── shap_waterfall_4.png
+├── shap_waterfall_5.png
+├── job_rate.png
+├── numeric_dist.png
+└── target_dist.png
+```
