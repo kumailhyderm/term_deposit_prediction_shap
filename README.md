@@ -102,21 +102,17 @@ pip install pandas numpy scikit-learn shap matplotlib seaborn ucimlrepo
 Open `notebook.ipynb` and run all cells sequentially.
 
 ## Repository Structure
-```
-bank_marketing/
-├── README.md
-├── bank_marketing.ipynb
-├── bank-additional-full.csv
-├── confusion_matrices.png
-├── roc_curve.png
-├── shap_summary.png
-├── shap_beesawrm.png
-├── shap_waterfall_1.png
-├── shap_waterfall_2.png
-├── shap_waterfall_3.png
-├── shap_waterfall_4.png
-├── shap_waterfall_5.png
-├── job_rate.png
-├── numeric_dist.png
-└── target_dist.png
-```
+
+| File | Description |
+|------|-------------|
+| `bank_marketing.ipynb` | Main Jupyter notebook with all phases |
+| `README.md` | Project documentation |
+| `bank-additional-full.csv` | Dataset |
+| `confusion_matrices.png` | Confusion matrix comparison |
+| `roc_curve.png` | ROC curve for both models |
+| `shap_summary.png` | SHAP global feature importance |
+| `shap_beesawrm.png` | SHAP beeswarm plot |
+| `shap_waterfall_1.png` to `shap_waterfall_5.png` | Individual prediction explanations |
+| `target_dist.png` | Target class distribution |
+| `numeric_dist.png` | Numeric feature distributions |
+| `job_rate.png` | Subscription rate by job type |
